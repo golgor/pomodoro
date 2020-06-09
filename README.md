@@ -9,3 +9,4 @@ Intention is to have a project to practice what I have learnt from Python-course
 * Pysimplegui as a GUI
 * Extern device connected via USB (arduino) to control red/green lamp
 * Possible to have guy using Django or Flask (Flask probably preferable due to simplicity)
+* Use Click (Python lib) for CLI
