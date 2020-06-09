@@ -6,7 +6,7 @@ Intention is to have a project to practice what I have learnt from Python-course
 ## Ideas
 * Pomodoro timer, working for 40 minutes, 10 minute brake...?
 * Using YAML for configuration
-* Pysimplegui as a GUI
+* Pysimplegui as a GUI (https://pysimplegui.readthedocs.io/en/latest/)
 * Extern device connected via USB (arduino) to control red/green lamp
 * Possible to have guy using Django or Flask (Flask probably preferable due to simplicity)
 * Use Click (Python lib) for CLI
