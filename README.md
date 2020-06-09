@@ -10,3 +10,8 @@ Intention is to have a project to practice what I have learnt from Python-course
 * Extern device connected via USB (arduino) to control red/green lamp
 * Possible to have guy using Django or Flask (Flask probably preferable due to simplicity)
 * Use Click (Python lib) for CLI
+
+## Other
+### PySimpleGUI
+To install pysimplegui in an Anaconda dist, run the following command:
+conda install -c conda-forge pysimplegui
