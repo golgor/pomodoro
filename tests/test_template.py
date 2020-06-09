@@ -1,13 +1,12 @@
 import test_importer
-import parser
+import _time
+from datetime import datetime as dt
+from datetime import timedelta
 
 
-def test_1():
-    # Initiate - Create folder structures and files,
-    # manually create list with files.
-    # Run tests - Run list_data files
-    # Evaluate tests - assert x=y (List with file names match)
-    assert 1 == 0
+def test_create_alarm():
+    alarm = _time.create_alarm_time()
+    assert isinstance(alarm, dt)
 
 
 def test_2():
