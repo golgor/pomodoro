@@ -14,4 +14,5 @@ Intention is to have a project to practice what I have learnt from Python-course
 ## Other
 ### PySimpleGUI
 To install pysimplegui in an Anaconda dist, run the following command:
+
 conda install -c conda-forge pysimplegui
