@@ -1,6 +1,6 @@
 from time import perf_counter
 from functools import wraps
-
+from datetime import datetime, timezone
 
 def timed(fn):
     @wraps(fn)
@@ -45,5 +45,17 @@ def timed_avg(fn):
               f"{elapsed_avg:.6f}s to run.",
               f"Averaged over {elapsed_count} times")
 
+        return result
+    return inner
+
+
+# TODO: Functionality to log to disk instead of prompt
+# TODO: Log called parameters
+def logged(fn):
+    @wraps(fn)
+    def inner(*args, **kwargs):
+        run_dt = datetime.now(timezone.utc)
+        result = fn(*args, **kwargs)
+        print(f"{run_dt} - Running {fn.__name__}")
         return result
     return inner
