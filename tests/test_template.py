@@ -1,11 +1,11 @@
 import test_importer
-import _time
 from datetime import datetime as dt
 from datetime import timedelta
+import pomodoro.alarms as alarms
 
 
 def test_create_alarm():
-    alarm = _time.create_alarm_time()
+    alarm = alarms.create_alarm_time()
     assert isinstance(alarm, dt)
 
 

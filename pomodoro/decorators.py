@@ -2,6 +2,7 @@ from time import perf_counter
 from functools import wraps
 from datetime import datetime, timezone
 
+
 def timed(fn):
     @wraps(fn)
     def inner(*args, **kwargs):
