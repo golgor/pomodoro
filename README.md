@@ -15,8 +15,8 @@ Note that you also have to add the scope for the Tasks API. This is done in the 
 The API code in this project is based on the [Python Quickstart](https://developers.google.com/tasks/quickstart/python)
 
 ## Links of interest
-[Google Tasks API Overview](https://developers.google.com/tasks)
-[Tasks API References](https://developers.google.com/tasks/v1/reference)
+* [Google Tasks API Overview](https://developers.google.com/tasks)
+* [Tasks API References](https://developers.google.com/tasks/v1/reference)
 
 # Timers
 ## Pomodoro
